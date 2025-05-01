@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Frames Example</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+  </style>
+</head>
+<frameset cols="50%,50%">
+  <frameset rows="50%,50%">
+    <frame src="orange.html" name="orangeFrame">
+    <frame src="blue.html" name="blueFrame">
+  </frameset>
+  <frameset rows="50%,50%">
+    <frame src="red.html" name="redFrame">
+    <frame src="green.html" name="greenFrame">
+  </frameset>
+</frameset>
+</html>

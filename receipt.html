@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fee Receipt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+    }
+
+    .receipt-container {
+      background-color: #fff;
+      width: 400px;
+      padding: 20px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .receipt-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .receipt-header h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .receipt-header p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .receipt-body {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .receipt-body .detail {
+      display: flex;
+      justify-content: space-between;
+      margin: 5px 0;
+    }
+
+    .total {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .receipt-footer {
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .receipt-footer p {
+      margin: 5px 0;
+    }
+
+    .thank-you {
+      font-size: 18px;
+      font-weight: bold;
+      color: #28a745;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="receipt-container">
+  <div class="receipt-header">
+    <h2>Fee Receipt</h2>
+    <p>Receipt No: 12345 | Date: 28-April-2025</p>
+  </div>
+
+  <div class="receipt-body">
+    <div class="detail">
+      <span>Student Name:</span>
+      <span>Bhumi Gopal Baswar</span>
+    </div>
+    <div class="detail">
+      <span>Class:</span>
+      <span>2nd year Btech </span>
+    </div>
+    <div class="detail">
+      <span>Roll No:</span>
+      <span>140</span>
+    </div>
+    <div class="detail">
+      <span>Amount Paid:</span>
+      <span>₹ 17,500</span>
+    </div>
+    <div class="detail">
+      <span>Fee Type:</span>
+      <span>Annual Fee</span>
+    </div>
+    <div class="detail total">
+      <span>Total Amount:</span>
+      <span>₹ 17,500</span>
+    </div>
+  </div>
+
+  <div class="receipt-footer">
+    <p>Paid to: D.Y.Patil College of Engineering and Technology </p>
+    <p>Thank you for your payment!</p>
+  </div>
+
+  <div class="thank-you">
+    <p>Payment Successful</p>
+  </div>
+</div>
+
+</body>
+</html>

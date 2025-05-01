@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<employees>
+    <employee>
+        <id>101</id>
+        <name>John Doe</name>
+        <position>Manager</position>
+        <salary>70000</salary>
+    </employee>
+    <employee>
+        <id>102</id>
+        <name>Jane Smith</name>
+        <position>Developer</position>
+        <salary>60000</salary>
+    </employee>
+</employees>
