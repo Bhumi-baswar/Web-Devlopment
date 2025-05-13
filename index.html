@@ -10,7 +10,7 @@
             background: #f4f6fb;
         }
         .container {
-            max-width: 500px;
+            max-width: 800px;
             margin: 60px auto;
             background: #fff;
             border-radius: 12px;
@@ -23,13 +23,24 @@
             margin-bottom: 28px;
             letter-spacing: 1px;
         }
+        h2 {
+            color: #4a5568;
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
         ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 16px;
         }
         li {
-            margin-bottom: 16px;
             background: #e9ecef;
             border-radius: 6px;
             transition: background 0.2s;
@@ -50,12 +61,24 @@
             color: #1e293b;
             text-decoration: underline;
         }
+        .mini-project a {
+            background: #2563eb;
+            color: #fff;
+            font-weight: bold;
+        }
+        .mini-project a:hover {
+            background: #1d4ed8;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Assignments List</h1>
-        <ul>
+        
+        <div class="category">
+            <h2>HTML Assignments</h2>
+            <ul>
             <li><a href="assignment_2.html">Assignment 2</a></li>
             <li><a href="assignment_3.html">Assignment 3</a></li>
             <li><a href="assignment_4.html">Assignment 4</a></li>
@@ -68,8 +91,25 @@
             <li><a href="assignment_11.html">Assignment 11</a></li>
             <li><a href="assignment_12.html">Assignment 12</a></li>
             <li><a href="assignment_13.xml">Assignment 13</a></li>
-            <li><a href="Mini Project/index.html" style="background:#2563eb;color:#fff;font-weight:bold;">Mini Project</a></li>
-        </ul>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>CSS Assignments</h2>
+            <ul>
+                <li><a href="inline-css.html">Inline CSS</a></li>
+                <li><a href="internal-css.html">Internal CSS</a></li>
+                <li><a href="external-css.html">External CSS</a></li>
+            </ul>
+        </div>
+
+        <div class="category">
+            <h2>Project</h2>
+            <ul>
+                <li class="mini-project"><a href="https://bhumi-baswar.github.io/Bhumi-WD-Project/
+">Text to Speech App</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
